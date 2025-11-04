@@ -3,7 +3,7 @@ import { ListingsCarousel } from "@/sections/CategoriesSection/components/Listin
 
 export const CategoriesSection = () => {
   return (
-    <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] px-[max(2%,18px)] py-[35px] md:max-w-screen-xl md:px-[4%] md:py-[65px]">
+    <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] mx-auto px-[max(2%,18px)] py-[35px] md:max-w-screen-xl md:px-[4%] md:py-[65px]">
       <div className="items-center box-border caret-transparent flex flex-col max-w-[1440px] w-full">
         <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-1 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px]">
           More than just pools

@@ -1,6 +1,6 @@
 export const LogosSection = () => {
   return (
-    <section className="relative items-center bg-[linear-gradient(rgb(224,240,255)_63.84%,rgb(255,255,255)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] pb-[30px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
+    <section className="relative items-center bg-[linear-gradient(rgb(224,240,255)_63.84%,rgb(255,255,255)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] mx-auto pb-[30px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
         <svg className="relative block w-full h-[50px] md:h-[100px]" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
           <path d="M0,0 C150,80 350,80 600,40 C850,0 1050,0 1200,40 L1200,0 L0,0 Z" fill="rgb(30, 27, 75)"></path>
