@@ -1,0 +1,26 @@
+import { AnnouncementBanner } from "@/components/AnnouncementBanner";
+
+export const App = () => {
+  return (
+    <body className="text-black text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[normal] list-outside list-disc max-w-full overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-nunito_199a07">
+      <AnnouncementBanner />
+      <div className="box-border caret-transparent"></div>
+      <div className="absolute box-border caret-transparent block"></div>
+      <iframe
+        title="No content"
+        role="presentation"
+        src="about://blank"
+        className="absolute box-border caret-transparent h-0 top-[-9999px] w-0"
+      ></iframe>
+      <div className="box-border caret-transparent">
+        <div className="box-border caret-transparent"></div>
+        <div className="box-border caret-transparent">
+          <iframe
+            title="Button to launch messaging window"
+            className="fixed shadow-[rgba(23,73,77,0.15)_0px_20px_30px_0px] box-border caret-transparent h-16 w-16 z-[999] rounded-[50%] right-4 bottom-4"
+          ></iframe>
+        </div>
+      </div>
+    </body>
+  );
+};
