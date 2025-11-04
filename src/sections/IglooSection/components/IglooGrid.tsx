@@ -5,7 +5,7 @@ export const IglooGrid = () => {
     <div className="items-stretch box-border caret-transparent gap-x-3 grid grid-cols-[1fr_1fr] justify-items-stretch gap-y-3 w-full mt-3 md:gap-x-6 md:grid-cols-[1fr_1fr_1fr] md:gap-y-6 md:mt-6">
       <IglooCard />
       <a
-        href="/s?space_type=igloo&use_case=hot_tub"
+        href="/search?space_type=igloo&use_case=hot_tub"
         className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
       >
         <img
@@ -27,7 +27,7 @@ export const IglooGrid = () => {
         </div>
       </a>
       <a
-        href="/s?space_type=igloo&use_case=sauna"
+        href="/search?space_type=igloo&use_case=sauna"
         className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
       >
         <img
@@ -49,7 +49,7 @@ export const IglooGrid = () => {
         </div>
       </a>
       <a
-        href="/s?space_type=igloo&use_case=heated"
+        href="/search?space_type=igloo&use_case=heated"
         className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
       >
         <img
@@ -71,7 +71,7 @@ export const IglooGrid = () => {
         </div>
       </a>
       <a
-        href="/s?space_type=igloo&use_case=backyard"
+        href="/search?space_type=igloo&use_case=backyard"
         className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
       >
         <img
@@ -93,7 +93,7 @@ export const IglooGrid = () => {
         </div>
       </a>
       <a
-        href="/s?space_type=igloo&use_case=cave"
+        href="/search?space_type=igloo&use_case=cave"
         className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
       >
         <img

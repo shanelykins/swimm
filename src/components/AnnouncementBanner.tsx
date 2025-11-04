@@ -16,7 +16,7 @@ export const AnnouncementBanner = () => {
           </div>
         </div>
         <a
-          href="/s"
+          href="/search"
           className="text-xs font-bold box-border caret-transparent inline shrink-0 tracking-[-0.16px] leading-[19.2px] min-h-0 min-w-0 border ml-0 px-3 py-1 rounded-[105px] border-solid border-white md:text-base md:block md:leading-[25.6px] md:min-h-[auto] md:min-w-[auto] md:ml-3"
         >
           Explore Now
@@ -48,7 +48,7 @@ export const AnnouncementBanner = () => {
           <div className="items-center box-border caret-transparent flex justify-end">
             <div className="items-center box-border caret-transparent gap-x-3.5 hidden min-h-0 min-w-0 gap-y-3.5 md:flex md:min-h-[auto] md:min-w-[auto]">
               <a
-                href="/s?space_type=pool"
+                href="/search?space_type=pool"
                 className="text-white font-bold bg-indigo-700 box-border caret-transparent inline h-[50px] tracking-[-0.16px] leading-[22.4px] min-h-0 min-w-0 text-center px-[35px] py-3.5 rounded-[100px] md:block md:min-h-[auto] md:min-w-[auto]"
               >
                 Find a Pool

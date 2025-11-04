@@ -1,7 +1,7 @@
 export const IglooCard = () => {
   return (
     <a
-      href="/s?space_type=igloo&use_case=indoor"
+      href="/search?space_type=igloo&use_case=indoor"
       className="relative aspect-auto bg-neutral-100 box-border caret-transparent block w-full overflow-hidden p-5 rounded-2xl md:aspect-[448_/_303] md:bg-transparent md:p-0 md:rounded-[36px] after:accent-auto after:bg-[linear-gradient(rgba(0,0,0,0)_51.53%,rgba(0,0,0,0.6)_70.77%)] after:caret-transparent after:text-black after:hidden after:text-base after:not-italic after:normal-nums after:font-normal after:h-full after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:pointer-events-auto after:absolute after:text-start after:indent-[0px] after:normal-case after:visible after:w-full after:border-separate after:left-0 after:top-0 after:font-nunito_199a07 after:md:block"
     >
       <img

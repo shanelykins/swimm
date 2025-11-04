@@ -2,7 +2,7 @@ export const DesktopNav = () => {
   return (
     <div className="items-center box-border caret-transparent gap-x-3.5 hidden min-h-0 min-w-0 gap-y-3.5 md:flex md:min-h-[auto] md:min-w-[auto]">
       <a
-        href="/s?space_type=pool"
+        href="/search?space_type=pool"
         className="text-white font-bold bg-indigo-700 box-border caret-transparent inline h-[50px] tracking-[-0.16px] leading-[22.4px] min-h-0 min-w-0 text-center px-[35px] py-3.5 rounded-[100px] md:block md:min-h-[auto] md:min-w-[auto]"
       >
         Find a Pool
