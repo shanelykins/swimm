@@ -1,10 +1,12 @@
 export const LogosSection = () => {
   return (
     <section className="relative items-center bg-[linear-gradient(rgb(224,240,255)_63.84%,rgb(255,255,255)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] pb-[30px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
-      <svg className="absolute top-0 left-0 w-full h-[50px] md:h-[75px]" preserveAspectRatio="none" viewBox="0 0 1440 75" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 0C240 75 480 75 720 37.5C960 0 1200 0 1440 37.5V75H0V0Z" fill="rgb(30, 27, 75)" />
-      </svg>
-      <div className="relative pt-[55px] md:pt-[75px] w-full">
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
+        <svg className="relative block w-full h-[50px] md:h-[100px]" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,0 C150,80 350,80 600,40 C850,0 1050,0 1200,40 L1200,0 L0,0 Z" fill="rgb(30, 27, 75)"></path>
+        </svg>
+      </div>
+      <div className="relative pt-[55px] md:pt-[105px] w-full">
       <div className="items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center max-w-[1440px] gap-y-[15px] w-full md:gap-x-[45px] md:flex-row md:gap-y-[45px]">
         <div className="text-sky-300 text-sm font-bold box-border caret-transparent shrink-0 tracking-[-0.14px] leading-[21px] md:text-blue-300 md:text-[21px] md:tracking-[-0.21px]">
           As seen on:
