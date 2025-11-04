@@ -6,7 +6,7 @@ export const LogosSection = () => {
           <path d="M0,0 C150,80 350,80 600,40 C850,0 1050,0 1200,40 L1200,0 L0,0 Z" fill="rgb(30, 27, 75)"></path>
         </svg>
       </div>
-      <div className="relative pt-[55px] md:pt-[105px] w-full mx-auto px-[max(2%,18px)] md:px-[4%]">
+      <div className="relative pt-[55px] md:pt-[105px] max-w-[1440px] w-full mx-auto px-[max(2%,18px)] md:px-[4%]">
       <div className="items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center gap-y-[15px] w-full md:gap-x-[45px] md:flex-row md:gap-y-[45px]">
         <div className="text-sky-300 text-sm font-bold box-border caret-transparent shrink-0 tracking-[-0.14px] leading-[21px] md:text-blue-300 md:text-[21px] md:tracking-[-0.21px]">
           As seen on:
