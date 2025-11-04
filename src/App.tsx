@@ -1,6 +1,7 @@
 import { AnnouncementBanner } from "@/components/AnnouncementBanner";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
+import { EventsSection } from "@/sections/EventsSection";
 import { LogosSection } from "@/sections/LogosSection";
 import { TestimonialsSection } from "@/sections/TestimonialsSection";
 import { CategoriesSection } from "@/sections/CategoriesSection";
@@ -16,6 +17,7 @@ export const App = () => {
       <AnnouncementBanner />
       <Header />
       <Hero />
+      <EventsSection />
       <LogosSection />
       <TestimonialsSection />
       <CategoriesSection />
