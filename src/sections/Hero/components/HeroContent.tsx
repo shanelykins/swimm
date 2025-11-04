@@ -2,7 +2,7 @@ import { SearchForm } from "@/sections/Hero/components/SearchForm";
 
 export const HeroContent = () => {
   return (
-    <div className="items-end box-border caret-transparent gap-x-2.5 flex h-full justify-between max-w-[1440px] gap-y-2.5 w-full z-10 md:items-center">
+    <div className="items-end box-border caret-transparent gap-x-2.5 flex h-full justify-between  gap-y-2.5 w-full z-10 md:items-center">
       <div className="items-center box-border caret-transparent flex basis-[0%] flex-col grow justify-center w-full z-[1] md:basis-auto md:grow-0">
         <div className="items-center box-border caret-transparent flex flex-col justify-center w-full md:w-auto">
           <h1 className="text-white text-[32px] font-black box-border caret-transparent tracking-[-0.32px] leading-[38.4px] text-center my-[21.44px] md:text-7xl md:tracking-[-2.16px] md:leading-[normal] md:my-[48.24px]">

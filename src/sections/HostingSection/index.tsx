@@ -1,8 +1,8 @@
 export const HostingSection = () => {
   return (
     <section className="items-center box-border caret-transparent flex flex-col justify-center w-full pb-[35px] md:pb-[65px]">
-      <div className="box-border caret-transparent max-w-[375px] md:max-w-screen-xl mx-auto w-full px-[max(2%,18px)] md:px-[4%]">
-      <div className="box-border caret-transparent max-w-[1440px] w-full">
+      <div className="box-border caret-transparent  md: mx-auto w-full px-[max(2%,18px)] md:px-[4%]">
+      <div className="box-border caret-transparent  w-full">
         <div className="items-center bg-slate-800 box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,1fr)] gap-y-4 w-full p-[19px] rounded-[44px] md:grid-cols-[3fr_2fr] md:p-10">
           <div className="items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 w-full md:items-start md:gap-x-[normal] md:gap-y-[normal]">
             <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] w-full md:hidden md:min-h-0 md:min-w-0">

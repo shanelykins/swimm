@@ -11,8 +11,8 @@ export const Hero = () => {
             <div className="absolute bg-[linear-gradient(rgba(92,192,209,0)_12.89%,rgb(128,111,100)_26.29%,rgb(128,111,100)_56.58%)] box-border caret-transparent block h-3/5 w-full z-[2] left-0 bottom-0 md:static md:bg-none md:hidden md:h-auto md:w-auto md:z-10 md:left-auto md:bottom-auto"></div>
             <HeroImage />
           </div>
-          <section className="[mask-image:radial-gradient(115.24px_at_50%_137.5px,rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(115.24px_at_50%_-112.5px,rgba(0,0,0,0)_99%,rgb(0,0,0)_101%),radial-gradient(115.24px_at_50%_calc(100%_-_137.5px),rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(115.24px_at_50%_calc(100%_+_112.5px),rgba(0,0,0,0)_99%,rgb(0,0,0)_101%)] relative items-center bg-violet-950 box-border caret-transparent flex flex-col justify-center mb-[-50px] mt-[-50px] [mask-clip:border-box,border-box,border-box,border-box] [mask-composite:add,add,add,add] [mask-mode:match-source,match-source,match-source,match-source] [mask-origin:border-box,border-box,border-box,border-box] [mask-repeat:repeat-x,repeat-x,repeat-x,repeat-x] [mask-size:100px_51%,100px_calc(51%_-_25px),100px_51%,100px_calc(51%_-_25px)] max-w-[375px] z-[3] px-[4%] py-[50px] md:[mask-image:radial-gradient(182px_at_50%_225px,rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(182px_at_50%_-175px,rgba(0,0,0,0)_99%,rgb(0,0,0)_101%),radial-gradient(182px_at_50%_calc(100%_-_225px),rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(182px_at_50%_calc(100%_+_175px),rgba(0,0,0,0)_99%,rgb(0,0,0)_101%)] md:mb-[-75px] md:mt-[-75px] md:[mask-size:200px_51%,200px_calc(51%_-_50px),200px_51%,200px_calc(51%_-_50px)] md:max-w-screen-xl md:py-[75px]">
-            <div className="items-center box-border caret-transparent gap-x-[17px] flex justify-center max-w-[1440px] gap-y-[17px] w-full">
+          <section className="[mask-image:radial-gradient(115.24px_at_50%_137.5px,rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(115.24px_at_50%_-112.5px,rgba(0,0,0,0)_99%,rgb(0,0,0)_101%),radial-gradient(115.24px_at_50%_calc(100%_-_137.5px),rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(115.24px_at_50%_calc(100%_+_112.5px),rgba(0,0,0,0)_99%,rgb(0,0,0)_101%)] relative items-center bg-violet-950 box-border caret-transparent flex flex-col justify-center mb-[-50px] mt-[-50px] [mask-clip:border-box,border-box,border-box,border-box] [mask-composite:add,add,add,add] [mask-mode:match-source,match-source,match-source,match-source] [mask-origin:border-box,border-box,border-box,border-box] [mask-repeat:repeat-x,repeat-x,repeat-x,repeat-x] [mask-size:100px_51%,100px_calc(51%_-_25px),100px_51%,100px_calc(51%_-_25px)]  z-[3] px-[4%] py-[50px] md:[mask-image:radial-gradient(182px_at_50%_225px,rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(182px_at_50%_-175px,rgba(0,0,0,0)_99%,rgb(0,0,0)_101%),radial-gradient(182px_at_50%_calc(100%_-_225px),rgb(0,0,0)_99%,rgba(0,0,0,0)_101%),radial-gradient(182px_at_50%_calc(100%_+_175px),rgba(0,0,0,0)_99%,rgb(0,0,0)_101%)] md:mb-[-75px] md:mt-[-75px] md:[mask-size:200px_51%,200px_calc(51%_-_50px),200px_51%,200px_calc(51%_-_50px)] md: md:py-[75px]">
+            <div className="items-center box-border caret-transparent gap-x-[17px] flex justify-center  gap-y-[17px] w-full">
               <img
                 alt="Experience ratings left image"
                 src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-left.png"
@@ -35,8 +35,8 @@ export const Hero = () => {
             </div>
           </section>
           0
-          <section className="items-center bg-[linear-gradient(rgb(224,240,255)_63.84%,rgb(255,255,255)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] pt-[55px] pb-[30px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
-            <div className="items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center max-w-[1440px] gap-y-[15px] w-full md:gap-x-[45px] md:flex-row md:gap-y-[45px]">
+          <section className="items-center bg-[linear-gradient(rgb(224,240,255)_63.84%,rgb(255,255,255)_100%)] box-border caret-transparent flex flex-col justify-center  pt-[55px] pb-[30px] px-[max(2%,18px)] md: md:pb-[55px] md:px-[4%]">
+            <div className="items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center  gap-y-[15px] w-full md:gap-x-[45px] md:flex-row md:gap-y-[45px]">
               <div className="text-sky-300 text-sm font-bold box-border caret-transparent shrink-0 tracking-[-0.14px] leading-[21px] md:text-blue-300 md:text-[21px] md:tracking-[-0.21px]">
                 As seen on:
               </div>
@@ -152,7 +152,7 @@ export const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="items-center border-t-indigo-700/30 box-border caret-transparent flex flex-col max-w-[1440px] w-full mt-5 py-10 border-t md:mt-0 md:py-[60px] md:border-t-black md:border-t-0">
+            <div className="items-center border-t-indigo-700/30 box-border caret-transparent flex flex-col  w-full mt-5 py-10 border-t md:mt-0 md:py-[60px] md:border-t-black md:border-t-0">
               <div className="text-violet-950 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-5 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px] md:mb-6">
                 Join over 4,000,000+ people who love to Swimply
               </div>
@@ -311,8 +311,8 @@ export const Hero = () => {
               </div>
             </div>
           </section>
-          <section className="items-center bg-transparent bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] pt-[55px] pb-16 px-[max(2%,18px)] md:bg-white md:bg-none md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
-            <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-[1440px] w-full">
+          <section className="items-center bg-transparent bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] box-border caret-transparent flex flex-col justify-center  pt-[55px] pb-16 px-[max(2%,18px)] md:bg-white md:bg-none md: md:pb-[55px] md:px-[4%]">
+            <div className="items-center box-border caret-transparent flex flex-col justify-center  w-full">
               <div className="items-center bg-none box-border caret-transparent gap-x-12 flex flex-col gap-y-12 w-full p-0 rounded-[56px] md:bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] md:px-[55px] md:py-16">
                 <div className="items-center box-border caret-transparent gap-x-2 flex flex-col gap-y-2 text-center">
                   <div className="relative text-white box-border caret-transparent">
@@ -470,8 +470,8 @@ export const Hero = () => {
               </div>
             </div>
           </section>
-          <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] px-[max(2%,18px)] py-[35px] md:max-w-screen-xl md:px-[4%] md:py-[65px]">
-            <div className="items-center box-border caret-transparent flex flex-col max-w-[1440px] w-full">
+          <section className="items-center box-border caret-transparent flex flex-col justify-center  px-[max(2%,18px)] py-[35px] md: md:px-[4%] md:py-[65px]">
+            <div className="items-center box-border caret-transparent flex flex-col  w-full">
               <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-1 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px]">
                 More than just pools
               </h3>
@@ -1176,8 +1176,8 @@ export const Hero = () => {
               </div>
             </div>
           </section>
-          <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] px-[max(2%,18px)] py-[35px] md:max-w-screen-xl md:px-[4%] md:py-[65px]">
-            <div className="items-center box-border caret-transparent flex flex-col max-w-[1440px] w-full">
+          <section className="items-center box-border caret-transparent flex flex-col justify-center  px-[max(2%,18px)] py-[35px] md: md:px-[4%] md:py-[65px]">
+            <div className="items-center box-border caret-transparent flex flex-col  w-full">
               <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-10 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px] md:mb-1">
                 Here&#39;s your guide to
                 <br className="text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px]" />
@@ -1308,8 +1308,8 @@ export const Hero = () => {
               Find pools near me
             </a>
           </section>
-          <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] pb-[35px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[65px] md:px-[4%]">
-            <div className="box-border caret-transparent max-w-[1440px] w-full">
+          <section className="items-center box-border caret-transparent flex flex-col justify-center  pb-[35px] px-[max(2%,18px)] md: md:pb-[65px] md:px-[4%]">
+            <div className="box-border caret-transparent  w-full">
               <a
                 href="https://swimply.onelink.me/f5eH/t1k5sgxb"
                 className="items-center bg-sky-600 bg-none box-border caret-transparent gap-x-[30px] flex flex-col justify-between gap-y-[30px] overflow-hidden p-11 rounded-3xl md:bg-transparent md:bg-[url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM5MSIgaGVpZ2h0PSI1MDEiIHZpZXdCb3g9IjAgMCAxMzkxIDUwMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzIxM182NjIwIiBzdHlsZT0ibWFzay10eXBlOmx1bWluYW5jZSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iLTE3NCIgeT0iLTMyMCIgd2lkdGg9IjE3MzkiIGhlaWdodD0iMTE0MiI+CjxwYXRoIGQ9Ik0tMTczLjg3NSAtMzE5Ljk0OUgxNTY0Ljg4VjgyMS43MTVILTE3My44NzVWLTMxOS45NDlaIiBmaWxsPSIjMDM3N0JEIi8+CjwvbWFzaz4KPGcgbWFzaz0idXJsKCNtYXNrMF8yMTNfNjYyMCkiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTS0xNzMuODc1IDgyMS43MTVIMTU2NC44OFYtMzE5Ljk0OUgtMTczLjg3NVY4MjEuNzE1WiIgZmlsbD0iIzAzNzdCRCIvPgo8L2c+CjxtYXNrIGlkPSJtYXNrMV8yMTNfNjYyMCIgc3R5bGU9Im1hc2stdHlwZTpsdW1pbmFuY2UiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9Ii0xNzQiIHk9Ii0zMjAiIHdpZHRoPSIxNzM5IiBoZWlnaHQ9IjExNDIiPgo8cGF0aCBkPSJNLTE3My44NzUgLTMxOS45NDlIMTU2NC44OFY4MjEuNzE1SC0xNzMuODc1Vi0zMTkuOTQ5WiIgZmlsbD0iIzQzQjJFNiIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazFfMjEzXzY2MjApIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMDI4Ljk1IC0xMC4wOTk5Vjc1Ny4yMTFILTg0NC40M1YtMTQ2LjYzNkMtNjYxLjA0NCAtMTM4LjEyMSAtNTUzLjE0NyAtMTA4LjI4MyAtNDQ4LjI2NiAtNzkuMjk5N0MtMzI0LjQ3NiAtNDUuMDg1NCAtMTk2LjQ3MSAtOS43MTQzNyA1NS4zMjc5IC05LjcxNDM3QzMwNy4wODUgLTkuNzE0MzcgNDM1LjA5NCAtNDUuMDg1NCA1NTguODg1IC03OS4yOTk3QzY4Mi45MDggLTExMy41ODYgODExLjE0MyAtMTQ5LjAzNiAxMDYzLjQ0IC0xNDkuMDM2QzEzMTUuNzUgLTE0OS4wMzYgMTQ0NC4wMiAtMTEzLjU4NiAxNTY4LjA1IC03OS4yOTk3QzE2ODQuNjQgLTQ3LjA2MjIgMTgwNC45OSAtMTMuODE4OSAyMDI4Ljk1IC0xMC4wOTk5WiIgZmlsbD0iIzQzQjJFNiIvPgo8L2c+CjxtYXNrIGlkPSJtYXNrMl8yMTNfNjYyMCIgc3R5bGU9Im1hc2stdHlwZTpsdW1pbmFuY2UiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9Ii0xNzQiIHk9Ii0zMjAiIHdpZHRoPSIxNzM5IiBoZWlnaHQ9IjExNDIiPgo8cGF0aCBkPSJNLTE3My44NzUgLTMxOS45NDlIMTU2NC44OFY4MjEuNzE1SC0xNzMuODc1Vi0zMTkuOTQ5WiIgZmlsbD0iIzZBQzFFQyIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazJfMjEzXzY2MjApIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOTkwLjI3IDIwNy42MjlWODgzLjY0NkgtODQ0LjQzVjEwMC43Qy03NTkuNjIyIDExMC43NjEgLTcwNC4wMTEgMTMyLjE2MyAtNjQ5LjcxNSAxNTIuOTgzQy01NzUuNTM4IDE4MS40NjggLTQ5OC44MTIgMjEwLjg3OSAtMzQ3Ljk1MSAyMTAuODc5Qy0xOTcuMDkgMjEwLjg3OSAtMTIwLjQwMiAxODEuNDY4IC00Ni4yMjUgMTUyLjk4M0MyOC4yOTU0IDEyNC4zODUgMTA1LjMzIDk0Ljc3NzMgMjU2LjkyOCA5NC43NzczQzQwOC40ODggOTQuNzc3MyA0ODUuNTYyIDEyNC4zODUgNTYwLjA0MyAxNTIuOTgzQzYzNC4yMTcgMTgxLjQ2OCA3MTAuOTQ2IDIxMC44NzkgODYxLjgwNyAyMTAuODc5QzEwMTIuNjcgMjEwLjg3OSAxMDg5LjM5IDE4MS40NjggMTE2My41NyAxNTIuOTgzQzEyMzguMDkgMTI0LjM4NSAxMzE1LjEzIDk0Ljc3NzMgMTQ2Ni43MiA5NC43NzczQzE2MTguMjggOTQuNzc3MyAxNjk1LjM2IDEyNC4zODUgMTc2OS44NCAxNTIuOTgzQzE4MjkuNCAxNzUuODU2IDE4OTAuNTQgMTk5LjI2OSAxOTkwLjI3IDIwNy42MjlaIiBmaWxsPSIjNkFDMUVDIi8+CjwvZz4KPG1hc2sgaWQ9Im1hc2szXzIxM182NjIwIiBzdHlsZT0ibWFzay10eXBlOmx1bWluYW5jZSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iLTE3NCIgeT0iLTMyMCIgd2lkdGg9IjE3MzkiIGhlaWdodD0iMTE0MiI+CjxwYXRoIGQ9Ik0tMTczLjg3NSAtMzE5Ljk0OUgxNTY0Ljg4VjgyMS43MTVILTE3My44NzVWLTMxOS45NDlaIiBmaWxsPSIjOEVEMEYxIi8+CjwvbWFzaz4KPGcgbWFzaz0idXJsKCNtYXNrM18yMTNfNjYyMCkiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI0MDAuMiA0NDIuMTVWMTAyOC4xMUgtNTIzLjQ0N1YyNTAuMDgxQy0yOTguODc0IDI1NS4yNjYgLTE3OC4yMTkgMzAxLjU4OSAtNjEuMzQ2OCAzNDYuNDgzQzYyLjQwNSAzOTMuOTY3IDE5MC4zNzMgNDQzLjA4IDQ0Mi4wNTQgNDQzLjA4QzY5My43MzYgNDQzLjA4IDgyMS42NjUgMzkzLjk2NyA5NDUuNDE4IDM0Ni40ODNDMTA2OS40OCAyOTguODQyIDExOTcuNzkgMjQ5LjU3OCAxNDUwLjE3IDI0OS41NzhDMTcwMi41OSAyNDkuNTc4IDE4MzAuOSAyOTguODQyIDE5NTQuOTcgMzQ2LjQ4M0MyMDY4LjgyIDM5MC4xNzcgMjE4Ni4xOSA0MzUuMjIzIDI0MDAuMiA0NDIuMTVaIiBmaWxsPSIjOEVEMEYxIi8+CjwvZz4KPHJlY3QgeD0iLTE3My44NzUiIHk9Ii0yMzguMzg2IiB3aWR0aD0iMTczOC43NSIgaGVpZ2h0PSI5NzguNzUiIGZpbGw9IiMwMDg4RDUiIGZpbGwtb3BhY2l0eT0iMC4zMyIvPgo8cmVjdCB5PSIwLjA1MTI2OTUiIHdpZHRoPSIxMzkxIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzAwNjhDQSIgZmlsbC1vcGFjaXR5PSIwLjUiLz4KPC9zdmc+Cg==)] md:gap-x-[normal] md:flex-row md:gap-y-[normal] md:px-[60px] md:py-6 md:rounded-[44px]"
@@ -1368,8 +1368,8 @@ export const Hero = () => {
               </a>
             </div>
           </section>
-          <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] pb-[35px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[65px] md:px-[4%]">
-            <div className="box-border caret-transparent max-w-[1440px] w-full">
+          <section className="items-center box-border caret-transparent flex flex-col justify-center  pb-[35px] px-[max(2%,18px)] md: md:pb-[65px] md:px-[4%]">
+            <div className="box-border caret-transparent  w-full">
               <div className="items-center bg-slate-800 box-border caret-transparent gap-x-4 grid grid-cols-[minmax(0px,1fr)] gap-y-4 w-full p-[19px] rounded-[44px] md:grid-cols-[3fr_2fr] md:p-10">
                 <div className="items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 w-full md:items-start md:gap-x-[normal] md:gap-y-[normal]">
                   <div className="box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] w-full md:hidden md:min-h-0 md:min-w-0">
@@ -1577,8 +1577,8 @@ export const Hero = () => {
               className="text-sky-50 aspect-[1440_/_150] box-border caret-transparent w-full -mb-1.5"
             />
           </div>
-          <section className="items-center bg-sky-50 box-border caret-transparent flex flex-col justify-center max-w-[375px] -mt-20 pt-[100px] pb-[35px] px-[max(2%,18px)] md:max-w-screen-xl md:mt-0 md:pt-0 md:pb-[65px] md:px-[4%]">
-            <div className="items-center box-border caret-transparent gap-x-3 flex flex-col max-w-[1440px] gap-y-3 w-full md:[align-items:normal] md:gap-x-[31px] md:gap-y-[31px]">
+          <section className="items-center bg-sky-50 box-border caret-transparent flex flex-col justify-center  -mt-20 pt-[100px] pb-[35px] px-[max(2%,18px)] md: md:mt-0 md:pt-0 md:pb-[65px] md:px-[4%]">
+            <div className="items-center box-border caret-transparent gap-x-3 flex flex-col  gap-y-3 w-full md:[align-items:normal] md:gap-x-[31px] md:gap-y-[31px]">
               <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-1 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px] md:text-left">
                 Things people ask us
               </h3>

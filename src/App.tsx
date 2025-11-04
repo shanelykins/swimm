@@ -2,7 +2,7 @@ import { AnnouncementBanner } from "@/components/AnnouncementBanner";
 
 export const App = () => {
   return (
-    <body className="text-black text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[normal] list-outside list-disc max-w-full overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-nunito_199a07">
+    <body className="text-black text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[normal] list-outside list-disc overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-nunito_199a07">
       <AnnouncementBanner />
       <div className="box-border caret-transparent"></div>
       <div className="absolute box-border caret-transparent block"></div>
