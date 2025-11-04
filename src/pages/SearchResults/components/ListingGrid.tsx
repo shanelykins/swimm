@@ -1,4 +1,5 @@
 import { Heart, Map } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ListingGridProps {
   onToggleMap: () => void;
@@ -107,7 +108,7 @@ export const ListingGrid = ({ onToggleMap, showMap }: ListingGridProps) => {
 
       <div className={`grid gap-6 ${showMap ? 'grid-cols-1 xl:grid-cols-2' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'}`}>
         {listings.map((listing) => (
-          <div key={listing.id} className="group cursor-pointer">
+          <Link key={listing.id} to={`/listing/${listing.id}`} className="group cursor-pointer">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-3">
               <img
                 src={listing.image}
@@ -158,7 +159,7 @@ export const ListingGrid = ({ onToggleMap, showMap }: ListingGridProps) => {
                 )}
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
