@@ -1,4 +1,5 @@
 import { GuideStep } from "@/sections/GuideSection/components/GuideStep";
+import { Link } from "react-router-dom";
 
 export const GuideSection = () => {
   return (
@@ -99,12 +100,12 @@ export const GuideSection = () => {
           </div>
         </div>
       </div>
-      <a
-        href="/s?space_type=pool"
+      <Link
+        to="/search?space_type=pool"
         className="text-white bg-sky-500 box-border caret-transparent block text-center w-full mt-[30px] px-[30px] py-[18px] rounded-[100px] md:w-auto md:mt-[50px] md:px-10 md:py-[30px]"
       >
         Find pools near me
-      </a>
+      </Link>
       </div>
     </section>
   );

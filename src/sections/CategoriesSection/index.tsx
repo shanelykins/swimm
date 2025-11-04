@@ -1,5 +1,6 @@
 import { CategoryTabs } from "@/sections/CategoriesSection/components/CategoryTabs";
 import { ListingsCarousel } from "@/sections/CategoriesSection/components/ListingsCarousel";
+import { Link } from "react-router-dom";
 
 export const CategoriesSection = () => {
   return (
@@ -15,12 +16,12 @@ export const CategoriesSection = () => {
         <CategoryTabs />
         <ListingsCarousel />
         <div className="box-border caret-transparent">
-          <a
-            href="/s?space_type=igloo"
+          <Link
+            to="/search?space_type=igloo"
             className="text-white bg-indigo-700 box-border caret-transparent text-center w-full px-[30px] py-[18px] rounded-[100px] md:w-auto md:px-10 md:py-[30px]"
           >
             Discover igloos near me
-          </a>
+          </Link>
         </div>
       </div>
       </div>
