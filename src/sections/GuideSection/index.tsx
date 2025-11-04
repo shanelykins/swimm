@@ -5,7 +5,6 @@ export const GuideSection = () => {
   return (
     <section className="items-center box-border caret-transparent flex flex-col justify-center w-full py-[35px] md:py-[65px]">
       <div className="max-w-[1440px] mx-auto w-full px-[max(2%,18px)] md:px-[4%]">
-        <div className="items-center box-border caret-transparent flex flex-col w-full">
         <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-10 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px] md:mb-1">
           Here&#39;s your guide to
           <br className="text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px]" />
@@ -99,10 +98,10 @@ export const GuideSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full mt-10">
           <Link
             to="/search?space_type=pool"
-            className="text-white bg-sky-500 box-border caret-transparent block text-center w-full mt-[30px] px-[30px] py-[18px] rounded-[100px] md:w-auto md:mt-[50px] md:px-10 md:py-[30px]"
+            className="text-white bg-sky-500 box-border caret-transparent block text-center w-full px-[30px] py-[18px] rounded-[100px] md:w-auto md:px-10 md:py-[30px]"
           >
             Find pools near me
           </Link>
