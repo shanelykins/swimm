@@ -2,7 +2,8 @@ import { IglooGrid } from "@/sections/IglooSection/components/IglooGrid";
 
 export const IglooSection = () => {
   return (
-    <section className="items-center bg-transparent bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] box-border caret-transparent flex flex-col justify-center max-w-[375px] mx-auto pt-[55px] pb-16 px-[max(2%,18px)] md:bg-white md:bg-none md:max-w-screen-xl md:pb-[55px] md:px-[4%]">
+    <section className="items-center bg-transparent bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] box-border caret-transparent flex flex-col justify-center w-full pt-[55px] pb-16 md:bg-white md:bg-none md:pb-[55px]">
+      <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] md:max-w-screen-xl mx-auto w-full px-[max(2%,18px)] md:px-[4%]">
       <div className="items-center box-border caret-transparent flex flex-col justify-center max-w-[1440px] w-full">
         <div className="items-center bg-none box-border caret-transparent gap-x-12 flex flex-col gap-y-12 w-full p-0 rounded-[56px] md:bg-[linear-gradient(rgb(79,37,204)_0%,rgb(32,2,123)_100%)] md:px-[55px] md:py-16">
           <div className="items-center box-border caret-transparent gap-x-2 flex flex-col gap-y-2 text-center">
@@ -26,6 +27,7 @@ export const IglooSection = () => {
           </div>
           <IglooGrid />
         </div>
+      </div>
       </div>
     </section>
   );

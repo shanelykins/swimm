@@ -1,6 +1,7 @@
 export const AppDownloadSection = () => {
   return (
-    <section className="items-center box-border caret-transparent flex flex-col justify-center max-w-[375px] mx-auto pb-[35px] px-[max(2%,18px)] md:max-w-screen-xl md:pb-[65px] md:px-[4%]">
+    <section className="items-center box-border caret-transparent flex flex-col justify-center w-full pb-[35px] md:pb-[65px]">
+      <div className="box-border caret-transparent max-w-[375px] md:max-w-screen-xl mx-auto w-full px-[max(2%,18px)] md:px-[4%]">
       <div className="box-border caret-transparent max-w-[1440px] w-full">
         <a
           href="https://swimply.onelink.me/f5eH/t1k5sgxb"
@@ -58,6 +59,7 @@ export const AppDownloadSection = () => {
             </div>
           </div>
         </a>
+      </div>
       </div>
     </section>
   );

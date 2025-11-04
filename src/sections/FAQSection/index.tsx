@@ -2,7 +2,8 @@ import { FAQColumn } from "@/sections/FAQSection/components/FAQColumn";
 
 export const FAQSection = () => {
   return (
-    <section className="items-center bg-sky-50 box-border caret-transparent flex flex-col justify-center max-w-[375px] mx-auto -mt-20 pt-[100px] pb-[35px] px-[max(2%,18px)] md:max-w-screen-xl md:mt-0 md:pt-0 md:pb-[65px] md:px-[4%]">
+    <section className="items-center bg-sky-50 box-border caret-transparent flex flex-col justify-center w-full -mt-20 pt-[100px] pb-[35px] md:mt-0 md:pt-0 md:pb-[65px]">
+      <div className="items-center box-border caret-transparent gap-x-3 flex flex-col max-w-[375px] md:max-w-screen-xl mx-auto gap-y-3 w-full px-[max(2%,18px)] md:px-[4%]">
       <div className="items-center box-border caret-transparent gap-x-3 flex flex-col max-w-[1440px] gap-y-3 w-full md:[align-items:normal] md:gap-x-[31px] md:gap-y-[31px]">
         <h3 className="text-neutral-800 text-2xl font-extrabold box-border caret-transparent tracking-[-0.24px] leading-[28.8px] text-center mb-1 md:text-5xl md:font-black md:tracking-[-0.48px] md:leading-[57.6px] md:text-left">
           Things people ask us
@@ -210,6 +211,7 @@ export const FAQSection = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
