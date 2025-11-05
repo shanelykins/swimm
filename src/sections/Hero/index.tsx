@@ -11,6 +11,44 @@ export const Hero = () => {
             <div className="absolute bg-[linear-gradient(rgba(92,192,209,0)_12.89%,rgb(128,111,100)_26.29%,rgb(128,111,100)_56.58%)] box-border caret-transparent block h-3/5 w-full z-[2] left-0 bottom-0 md:static md:bg-none md:hidden md:h-auto md:w-auto md:z-10 md:left-auto md:bottom-auto"></div>
             <HeroImage />
           </div>
+          <section className="relative w-full z-[3] mt-[-60px] mb-[-60px]">
+            <div className="relative w-full">
+              <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]" style={{ height: '50px' }}>
+                <svg className="relative block w-full" style={{ height: '50px' }} viewBox="0 0 1200 50" preserveAspectRatio="none">
+                  <path d="M0,25 Q50,5 100,25 T200,25 Q250,5 300,25 T400,25 Q450,5 500,25 T600,25 Q650,5 700,25 T800,25 Q850,5 900,25 T1000,25 Q1050,5 1100,25 T1200,25 L1200,50 L0,50 Z" fill="#1e1b4b" />
+                </svg>
+              </div>
+
+              <div className="relative bg-[#1e1b4b] py-6 md:py-8 px-4">
+                <div className="max-w-7xl mx-auto flex items-center justify-center gap-4">
+                  <img
+                    src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-left.png"
+                    alt="User avatar"
+                    className="hidden md:block w-16 h-12 object-contain"
+                  />
+                  <p className="text-white text-center font-bold text-lg md:text-xl leading-tight">
+                    Over 4 million ⭐⭐⭐⭐⭐ experiences hosted by 15,000 hosts and counting!
+                  </p>
+                  <div className="hidden md:flex items-center relative">
+                    <img
+                      src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-right.jpg"
+                      alt="User avatar"
+                      className="w-10 h-10 rounded-full object-cover"
+                    />
+                    <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center text-xl">
+                      ❤️
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]" style={{ height: '50px' }}>
+                <svg className="relative block w-full" style={{ height: '50px' }} viewBox="0 0 1200 50" preserveAspectRatio="none">
+                  <path d="M0,0 L1200,0 L1200,25 Q1150,45 1100,25 T1000,25 Q950,45 900,25 T800,25 Q750,45 700,25 T600,25 Q550,45 500,25 T400,25 Q350,45 300,25 T200,25 Q150,45 100,25 T0,25 Z" fill="#1e1b4b" />
+                </svg>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     </div>
