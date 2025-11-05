@@ -2,7 +2,6 @@ import { SearchHeader } from "./components/SearchHeader";
 import { CategoryNav } from "./components/CategoryNav";
 import { ListingGrid } from "./components/ListingGrid";
 import { MapView } from "./components/MapView";
-import { EventsSection } from "./components/EventsSection";
 import { useState } from "react";
 
 export const SearchResults = () => {
@@ -15,9 +14,6 @@ export const SearchResults = () => {
 
       <div className="flex h-[calc(100vh-180px)]">
         <div className={`${showMap ? 'w-1/2' : 'w-full'} overflow-y-auto`}>
-          <div className="px-6">
-            <EventsSection />
-          </div>
           <ListingGrid onToggleMap={() => setShowMap(!showMap)} showMap={showMap} />
         </div>
 
