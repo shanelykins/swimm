@@ -7,7 +7,7 @@ const experienceData: Record<string, any> = {
   "yoga-sunset": {
     title: "Hot Holy & Healed Yoga at Sunset",
     images: [
-      "https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://i.imgur.com/MTqEAZv.jpeg",
       "https://images.pexels.com/photos/3822488/pexels-photo-3822488.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&w=800",
     ],
@@ -34,7 +34,7 @@ const experienceData: Record<string, any> = {
   "pickleball-singles": {
     title: "Pickleball for Singles - Meet & Play",
     images: [
-      "https://images.pexels.com/photos/6253903/pexels-photo-6253903.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://i.imgur.com/k0lf5Ht.jpeg",
     ],
     price: 20,
     rating: 4.9,
@@ -52,7 +52,7 @@ const experienceData: Record<string, any> = {
   "dog-swim-day": {
     title: "Dog Swim Day - Canine Pool Party",
     images: [
-      "https://images.pexels.com/photos/9543684/pexels-photo-9543684.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://i.imgur.com/TIUlo61.jpeg",
     ],
     price: 25,
     rating: 5.0,
@@ -71,7 +71,7 @@ const experienceData: Record<string, any> = {
   "movie-night": {
     title: "Backyard Movie Night Under the Stars",
     images: [
-      "https://images.pexels.com/photos/7991158/pexels-photo-7991158.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://i.imgur.com/cqrD4z2.png",
     ],
     price: 18,
     rating: 4.8,
@@ -89,7 +89,7 @@ const experienceData: Record<string, any> = {
   "open-swim-fridays": {
     title: "Open Swim Fridays at Mark's Pool",
     images: [
-      "https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://i.imgur.com/ab35vVj.jpeg",
     ],
     price: 12,
     rating: 5.0,

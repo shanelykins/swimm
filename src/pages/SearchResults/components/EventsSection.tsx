@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const experiences = [
   {
     id: "yoga-sunset",
-    image: "https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://i.imgur.com/MTqEAZv.jpeg",
     price: 15,
     title: "Hot Holy & Healed Yoga at Sunset",
     location: "Santa Monica",
@@ -16,7 +16,7 @@ const experiences = [
   },
   {
     id: "pickleball-singles",
-    image: "https://images.pexels.com/photos/6253903/pexels-photo-6253903.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://i.imgur.com/k0lf5Ht.jpeg",
     price: 20,
     title: "Pickleball for Singles - Meet & Play",
     location: "Venice Beach",
@@ -28,7 +28,7 @@ const experiences = [
   },
   {
     id: "dog-swim-day",
-    image: "https://images.pexels.com/photos/9543684/pexels-photo-9543684.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://i.imgur.com/TIUlo61.jpeg",
     price: 25,
     title: "Dog Swim Day - Canine Pool Party",
     location: "Culver City",
@@ -41,7 +41,7 @@ const experiences = [
   },
   {
     id: "movie-night",
-    image: "https://images.pexels.com/photos/7991158/pexels-photo-7991158.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://i.imgur.com/cqrD4z2.png",
     price: 18,
     title: "Backyard Movie Night Under the Stars",
     location: "Hollywood Hills",
@@ -53,7 +53,7 @@ const experiences = [
   },
   {
     id: "open-swim-fridays",
-    image: "https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://i.imgur.com/ab35vVj.jpeg",
     price: 12,
     title: "Open Swim Fridays at Mark's Pool",
     location: "West Hollywood",
