@@ -1,15 +1,17 @@
 import { SlidersHorizontal } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const categories = [
-  { id: 'all', label: 'All spaces', icon: '🏊' },
-  { id: 'pools', label: 'Pools', icon: '🏊' },
-  { id: 'igloos', label: 'Igloos', icon: '⛺', badge: 'NEW' },
-  { id: 'pet-parks', label: 'Pet Parks', icon: '🐕' },
-  { id: 'pickleball', label: 'Pickleball', icon: '🎾' },
-  { id: 'tennis', label: 'Tennis', icon: '🎾' },
-  { id: 'hoops', label: 'Hoops', icon: '🏀' },
-  { id: 'mansions', label: 'Mansions', icon: '🏰' },
-  { id: 'discover', label: 'Discover', icon: '🔍' },
+  { id: 'all', label: 'All spaces', icon: '🏊', href: '/search' },
+  { id: 'pools', label: 'Pools', icon: '🏊', href: '/search?category=pools' },
+  { id: 'experiences', label: 'Experiences', icon: '🎉', badge: 'NEW', href: '/experiences' },
+  { id: 'igloos', label: 'Igloos', icon: '⛺', href: '/search?category=igloos' },
+  { id: 'pet-parks', label: 'Pet Parks', icon: '🐕', href: '/search?category=pet-parks' },
+  { id: 'pickleball', label: 'Pickleball', icon: '🎾', href: '/search?category=pickleball' },
+  { id: 'tennis', label: 'Tennis', icon: '🎾', href: '/search?category=tennis' },
+  { id: 'hoops', label: 'Hoops', icon: '🏀', href: '/search?category=hoops' },
+  { id: 'mansions', label: 'Mansions', icon: '🏰', href: '/search?category=mansions' },
+  { id: 'discover', label: 'Discover', icon: '🔍', href: '/search?category=discover' },
 ];
 
 const amenities = [
@@ -27,8 +29,9 @@ export const CategoryNav = () => {
       <div className="px-6">
         <div className="flex items-center gap-6 py-4 overflow-x-auto scrollbar-hide">
           {categories.map((category) => (
-            <button
+            <Link
               key={category.id}
+              to={category.href}
               className="flex flex-col items-center gap-1 min-w-fit group"
             >
               <div className="flex items-center gap-1">
@@ -42,7 +45,7 @@ export const CategoryNav = () => {
               <span className="text-xs font-medium text-gray-600 group-hover:text-gray-900 whitespace-nowrap">
                 {category.label}
               </span>
-            </button>
+            </Link>
           ))}
         </div>
       </div>
