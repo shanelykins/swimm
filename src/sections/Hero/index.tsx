@@ -11,43 +11,44 @@ export const Hero = () => {
             <div className="absolute bg-[linear-gradient(rgba(92,192,209,0)_12.89%,rgb(128,111,100)_26.29%,rgb(128,111,100)_56.58%)] box-border caret-transparent block h-3/5 w-full z-[2] left-0 bottom-0 md:static md:bg-none md:hidden md:h-auto md:w-auto md:z-10 md:left-auto md:bottom-auto"></div>
             <HeroImage />
           </div>
-          <section className="relative w-full z-[3] mt-[-60px] mb-[-60px]">
-            <div className="relative w-full">
-              <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]" style={{ height: '50px' }}>
-                <svg className="relative block w-full" style={{ height: '50px' }} viewBox="0 0 1200 50" preserveAspectRatio="none">
-                  <path d="M0,25 Q50,5 100,25 T200,25 Q250,5 300,25 T400,25 Q450,5 500,25 T600,25 Q650,5 700,25 T800,25 Q850,5 900,25 T1000,25 Q1050,5 1100,25 T1200,25 L1200,50 L0,50 Z" fill="#1e1b4b" />
-                </svg>
-              </div>
+          <section className="relative w-full z-[3] mt-[-50px] mb-[-50px] overflow-hidden" style={{ paddingTop: '30px', paddingBottom: '30px' }}>
+            <svg className="absolute top-[-1px] left-0 w-full" style={{ height: '80px' }} viewBox="0 0 1440 80" preserveAspectRatio="none">
+              <path d="M0,64 C480,0 960,128 1440,64 L1440,0 L0,0 Z" fill="#141047"></path>
+            </svg>
 
-              <div className="relative bg-[#1e1b4b] py-6 md:py-8 px-4">
-                <div className="max-w-7xl mx-auto flex items-center justify-center gap-4">
+            <div className="relative z-[2] bg-[#141047] text-white text-center py-[30px] px-[10px]">
+              <div className="flex justify-center items-center gap-3 max-w-[900px] mx-auto flex-wrap">
+                <div className="hidden md:flex items-center">
                   <img
                     src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-left.png"
                     alt="User avatar"
-                    className="hidden md:block w-16 h-12 object-contain"
+                    className="w-10 h-10 rounded-full border-2 border-white ml-[-10px] shadow-[0_2px_4px_rgba(0,0,0,0.3)]"
                   />
-                  <p className="text-white text-center font-bold text-lg md:text-xl leading-tight">
-                    Over 4 million ⭐⭐⭐⭐⭐ experiences hosted by 15,000 hosts and counting!
-                  </p>
-                  <div className="hidden md:flex items-center relative">
-                    <img
-                      src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-right.jpg"
-                      alt="User avatar"
-                      className="w-10 h-10 rounded-full object-cover"
-                    />
-                    <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center text-xl">
-                      ❤️
-                    </div>
+                  <img
+                    src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-left.png"
+                    alt="User avatar"
+                    className="w-10 h-10 rounded-full border-2 border-white ml-[-10px] shadow-[0_2px_4px_rgba(0,0,0,0.3)]"
+                  />
+                </div>
+                <p className="text-white text-base md:text-lg font-bold leading-tight">
+                  Over 4 million <span className="text-[#FFD700]">★★★★★</span> experiences hosted by 15,000 hosts and counting!
+                </p>
+                <div className="hidden md:flex items-center relative">
+                  <img
+                    src="https://c.animaapp.com/mhktpn46U9Eif8/assets/desktop-right.jpg"
+                    alt="User avatar"
+                    className="w-10 h-10 rounded-full border-2 border-white shadow-[0_2px_4px_rgba(0,0,0,0.3)]"
+                  />
+                  <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-pink-200 rounded-full flex items-center justify-center text-base shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
+                    ❤️
                   </div>
                 </div>
               </div>
-
-              <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]" style={{ height: '50px' }}>
-                <svg className="relative block w-full" style={{ height: '50px' }} viewBox="0 0 1200 50" preserveAspectRatio="none">
-                  <path d="M0,0 L1200,0 L1200,25 Q1150,45 1100,25 T1000,25 Q950,45 900,25 T800,25 Q750,45 700,25 T600,25 Q550,45 500,25 T400,25 Q350,45 300,25 T200,25 Q150,45 100,25 T0,25 Z" fill="#1e1b4b" />
-                </svg>
-              </div>
             </div>
+
+            <svg className="absolute bottom-[-1px] left-0 w-full" style={{ height: '80px' }} viewBox="0 0 1440 80" preserveAspectRatio="none">
+              <path d="M0,16 C480,80 960,-32 1440,16 L1440,80 L0,80 Z" fill="#141047"></path>
+            </svg>
           </section>
         </div>
       </main>
